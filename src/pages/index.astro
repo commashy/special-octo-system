@@ -12,51 +12,57 @@ const last_posts = posts.slice(0, 3);
 
 <BaseLayout>
 
-    <div class="pb-12 mt-5">
-      <div class="text-xl py-1">Hey there 👋</div>
-      <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-      <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
-      <div class="py-2">
-        <text class="text-lg">
-          I made this template for everyone who needs to create a personal website easily and quickly. This template includes Project Section, CV Section, Store, Paginated Blog, RSS Feed, SEO Friendly, Responsive Design and 29 Visual themes. I hope you find it useful!
-          </text
-        >
-      </div>
-      <div class="mt-8">
-        <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-        <a href="https://github.com/manuelernestog/astro-modern-personal-website" target="_blank" class="btn btn-outline ml-5"> Get This template</a>
-      </div>
+  <div class="pb-12 mt-5">
+    <div class="text-xl py-1">Hello there 👋</div>
+    <div class="text-5xl font-bold">I'm Oh Jintaek</div>
+    <div class="text-3xl py-3 font-bold">Year 3 Bioengineering Student at HKUST</div>
+    <div class="py-2">
+      <text class="text-lg">
+        Welcome to my personal corner of the web! I'm currently delving into the fascinating world of deep learning applications in Bioengineering and Chemical Engineering. I'm also developing my skills in front-end development, eager to create engaging and interactive user experiences. 
+        <br><br>Here, you can explore my Projects, delve into my CV, check out my Blog, and visit the Store for any available resources. 
+        <br><br>Enjoy your visit!
+      </text>
     </div>
+    <div class="mt-8">
+      <a class="btn" href="https://www.linkedin.com/in/jintaek-oh-68217a259/" target="_blank"> Let's connect!</a>
+      <a href="https://github.com/commashy" target="_blank" class="btn btn-outline ml-5"> Check out my GitHub</a>
+    </div>
+  </div>  
 
     <div>
-      <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+      <div class="text-3xl w-full font-bold mb-2">My last projects</div>
     </div>
 
     <HorizontalCard
-      title="Demo Project 1"
-      img="/post_img.webp"
-      desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      url="#"
-      badge="NEW"
+      title="WGAN-GP for drug candidates generation"
+      img="/wgan-gp.pbm"
+      desc="Employing WGAN-GP, this project leverages deep learning to generate potential drug candidates, aiming to expedite the drug discovery process and pave the way for quicker medical breakthroughs."
+      url="https://github.com/commashy/WGAN-GP"
     />
     <div class="divider my-0"></div>
     <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="Industrial Biscuit Anomaly Detection"
+    img="/cookie.png"
+    desc="Leveraging deep learning for quality control in biscuit manufacturing. Utilizing Xception and EfficientNetB4 architectures, this project achieves unprecedented accuracy in detecting anomalies, ensuring higher product quality and efficiency in the production process."
+    url="https://github.com/commashy/Industrial-Biscuit-Anomaly-Detection-using-Deep-Learning"
   />
     <div class="divider my-0"></div>
     <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="Cardiovascular Disease Prediction"
+    img="/cvd.jpeg"
+    desc="Leveraging machine learning to predict CVD using CatBoost Classifier with an impressive performance on key metrics."
+    url="https://github.com/commashy/Cardiovascular-Disease-CVD-Prediction-using-Machine-Learning"
+  />
+    <div class="divider my-0"></div>
+    <HorizontalCard
+    title="Toxicity Classification with Deep Learning"
+    img="/toxicity.jpeg"
+    desc="A deep learning approach using PyTorch for classifying chemical toxicity, based on Morgan fingerprints of chemical compounds."
+    url="https://github.com/commashy/Toxicity_classificaiton"
   />
 
 
-    <div>
+    <!-- <div>
       <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
     </div>
 
@@ -72,6 +78,6 @@ const last_posts = posts.slice(0, 3);
         />
         <div class="divider my-0"></div>
       ))
-    }
+    } -->
 
 </BaseLayout>
